@@ -1,0 +1,66 @@
+body
+{
+  background-color: rgb(241, 225, 241);
+}
+
+.Welcome
+{
+    width: 100vw;
+    height: 120px;
+}
+
+.select
+{
+    width: 100vw;
+    height: 30vh;
+    border-style: double;
+    padding: 30px;
+    padding-top: 0%;
+    margin: 5px;
+    
+}
+ .select ul
+{
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+
+
+   .select button
+{
+    border-style: solid;
+    border-radius: 20px;
+    background-color: aquamarine;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    color:black;
+    
+}
+
+.select button:hover
+{
+    border-style: solid;
+    border-radius: 20px;
+    background-color: rgb(255, 127, 191);
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    color:white;
+}
+
+.vision
+{
+    width: 100vw;
+    height: 39vh;
+    border-style: double;
+    margin: 5px;
+}
+
+.dev
+{
+    float:left;
+}
