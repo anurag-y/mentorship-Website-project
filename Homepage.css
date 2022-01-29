@@ -1,3 +1,38 @@
+/* navbar css style start */
+header {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  background: black;
+  height: 30px;
+}
+.nav_name {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: medium;
+}
+.nav_name a {
+  text-decoration: none;
+  color: white;
+}
+.nav_name li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.nav_name li a:hover {
+  color: black;
+  background: white;
+}
+.logo {
+  height: 20px;
+}
+.logo:hover {
+  
+}
+
+/* navbar css style  ends*/
+
+
 body
 {
   background-color: rgb(241, 225, 241);
