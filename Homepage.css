@@ -165,4 +165,10 @@ footer{
   width:100%;
   padding:20px 0;
 }
-
+footer a{
+  margin-left:30px;
+  text-decoration: none;
+  padding:10px 20px;
+  background:linear-gradient(45deg, rgba(255, 255, 0, 0.219),rgba(255, 166, 0, 0.563));
+  border-radius:2px;
+}
