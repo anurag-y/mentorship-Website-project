@@ -42,7 +42,7 @@ color:rgb(255, 72, 0);
 list-style-type: none;
 }
 .links a {
- padding:10px 25px;
+ padding:10px 20px;
  text-decoration: none;
  transition:0.3s ease all;
 }
@@ -167,4 +167,40 @@ footer a{
   padding:10px 20px;
   background:linear-gradient(45deg, rgba(255, 255, 0, 0.219),rgba(255, 166, 0, 0.563));
   border-radius:2px;
+}
+
+
+@media only screen and (max-width:768px){
+  .people{
+
+    padding:20px;
+    margin-top:15px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .people a{
+      background:white;text-decoration: none;
+      display:flex;
+    align-items: center;
+    justify-content: center;
+     width:150px;
+     height:150px;
+    
+      font-size:16px;
+     
+    }
+
+  .content{
+  flex-direction:column;
+  align-items: center;
+
+}
+.select,.vision{
+  margin:10px 0;
+}
+.links{
+  display:none;
+}
+    
 }
