@@ -25,14 +25,15 @@ header {
 font-size:24px;
   padding:10px 15px;
   border-radius: 10px;
- color:rgba(23, 70, 228, 0.575);
+ background:linear-gradient(45deg, rgba(255, 255, 0, 0.219),rgba(255, 166, 0, 0.563));
 
 }
 .logo span{
 margin-left:5px;
 font-size:32px;
-font-family:cursive;
-color:rgb(0, 132, 255);
+font-family:Montserrat;
+color:rgb(255, 72, 0);
+
 }
 .links{
   display:flex;
