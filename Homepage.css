@@ -70,7 +70,7 @@ box-shadow:0 3px 5px rgba(0, 0, 0, 0.096);
 }
 .select,.vision
 {
-   
+  width:400px;
    display: flex;
    justify-content: center;
    flex-direction: column;
@@ -111,11 +111,6 @@ color:white;
   color:white;
 }
 
-
-.vision
-{
-   max-width:400px;
-}
 
 .vision h2
 {
