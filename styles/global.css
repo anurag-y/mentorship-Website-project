@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;500;900&display=swap");
+
+/* Use these CSS variables in the whole project so that it will be easy to change some property from just at on place only */
+
+:root {
+	--black: hsla(0, 0%, 0%, 0.5);
+	--gray: hsla(0, 0%, 0%, 0.35);
+	--family: "Nunito", sans-serif;
+	--blue: hsl(240, 57%, 65%);
+	--red: hsl(0, 40%, 50%);
+	--yellow: hsl(50, 75%, 89%);
+	--green: hsl(120, 65%, 91%);
+	--teal:rgba(0, 128, 128, 0.177);
+	--desktop-verylarge: 32px;
+	--desktop-large: 24px;
+	--desktop-medium: 20px;
+	--desktop-small: 16px;
+	--mobile-verylarge: 24px;
+	--mobile-large: 20px;
+	--mobile-medium: 16px;
+	--mobile-small: 14px;
+	--background: hsl(240, 50%, 96%);
+	--shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+	--full-shadow:0 0 4px 1px rgba(0, 0, 0, 0.096);
+	--desktop-time: 0.3s ease all;
+	--mobile-time: 0.1s ease all;
+	
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: 300;
+}
+
+body {
+	font-family: var(--family);
+	color: var(--black);
+	background: var(--background);
+	font-size: var(--desktop-small);
+}
+/* The general styles for the links and buttons */
+.btn {
+	padding: 7px 24px;
+	text-decoration: none;
+	border-radius: 25px;
+	font-size: var(--desktop-medium);
+	transition: var(--desktop-time);
+	color: var(--black);
+	box-shadow:var(--shadow);
+	background:white;
+	
+}
+.btn:hover {
+	background: var(--blue);
+	color:white;
+}
+.btn:active {
+	transform: scale(0.9);
+}
+/* class for centering the things */
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.space-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card{
+	max-width:96%;
+	width:300px;
+	background:white;
+	box-shadow: var(--shadow);
+	padding:10px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;margin:10px;
+}
+.img{
+	width:100%;
+	overflow:hidden;
+}
+.img img{
+	width:100%;
+	transition:var(--desktop-time)
+	
+}
+.card:hover img{
+	transform: scale(1.1);
+}
+.card .btn{
+	margin:0 auto;
+	margin-top:10px;
+}
+
+footer {
+	text-align: center;
+
+	width: 100%;
+	padding: 20px 0;
+}
+footer a {
+	color:var(--black);
+	margin-left: 30px;
+	text-decoration: none;
+	padding: 10px 20px;
+	background: linear-gradient(
+		45deg,
+		rgba(255, 255, 0, 0.219),
+		rgba(255, 166, 0, 0.563)
+	);
+	border-radius: 2px;
+}
