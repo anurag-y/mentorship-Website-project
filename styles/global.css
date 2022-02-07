@@ -19,7 +19,7 @@
 	--mobile-large: 20px;
 	--mobile-medium: 16px;
 	--mobile-small: 14px;
-	--background: hsl(240, 50%, 96%);
+	--background: linear-gradient(45deg,hsl(240, 50%, 96%) 0% 50%,hsl(120, 65%, 91%) 50% 100%) ;
 	--shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
 	--full-shadow:0 0 4px 1px rgba(0, 0, 0, 0.096);
 	--desktop-time: 0.3s ease all;
@@ -46,7 +46,6 @@ body {
 	border-radius: 25px;
 	font-size: var(--desktop-medium);
 	transition: var(--desktop-time);
-	color: var(--black);
 	box-shadow:var(--shadow);
 	background:white;
 	
@@ -99,12 +98,12 @@ body {
 
 footer {
 	text-align: center;
-
+	
 	width: 100%;
 	padding: 20px 0;
 }
 footer a {
-	color:var(--black);
+	color:rgb(102, 4, 4);
 	margin-left: 30px;
 	text-decoration: none;
 	padding: 10px 20px;

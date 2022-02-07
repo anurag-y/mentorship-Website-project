@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Homepage.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/home.css">
     <title>Initiator Navodayans</title>
 </head>
 <body>
-    <header class="Header">
+    <header class="Header space-between">
   
         <div class="logo">
             <span>I</span>nitiators<span>N</span>avodayans
@@ -16,12 +17,13 @@
 
     <nav id="navbar">
       <ul class="links">
-        <li><a href=".\index.html">Home</a></li>
-        <li><a href=".\about.html">About Us</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="./pages/about.html">About Us</a></li>
         <li><a href="#">Programes</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="./pages/contact.html">Contact Us</a></li>
       </ul>
     </nav>
+    <button className="toggle">Menu</button>
   </header>
     
     <h1 class="Welcome"> &#x2192; </h1>
@@ -29,8 +31,8 @@
         <div class="select">
             <h2>Join us</h2>
             <ul>
-                <li><a href=.\signin_alum.html>Provide Mentorship</a></li>
-                <li><a href=.\signin_stud.html >Get Mentorship</a></li>            
+                <li><a href=./pages/mentor_signup.html>Provide Mentorship</a></li>
+                <li><a href=.pages/student_signup.html >Get Mentorship</a></li>            
             </ul>
         </div>
     
@@ -42,26 +44,55 @@
             </p>
         </div>
     </div>
-    
-
-    <!-- <div class="dev">
+    <div class="dev">
        <h2>
            Team of devlopers
        </h2>
-       <div class="people">
-        <a href="#">Abhishek</a>
-        <a href="#">Aditya</a>
-        <a href="#">Anurag</a>
-        <a href="#">Arti
-        <a href="#">Gauri</a>
-        <a href="#">Mukesh</a>
+       <div class="people center">
+        <div class="card">
+           <div class="img">
+               <img src="./assets/Abhishek.jpg" alt="">
+           </div>
+           <a href="#" class="btn">Abhishek</a>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="./assets/Aadi.jpg" alt="">
+            </div>
+            <a href="#" class="btn">Aditya</a>
+         </div>
+        <div class="card">
+            <div class="img">
+                <img src="./assets/Anurag.jpg" alt="">
+            </div>
+            <a href="#" class="btn">Anurag</a>
+         </div>
+         <div class="card">
+            <div class="img">
+                <img src="./assets/Arti.jpg" alt="">
+            </div>
+            <a href="#" class="btn">Arti</a>
+         </div>
+         <div class="card">
+            <div class="img">
+                <img src="./assets/Gauri.jpg" alt="">
+            </div>
+            <a href="#" class="btn">Gauri</a>
+         </div>
+         <div class="card">
+            <div class="img">
+                <img src="./assets/Mukesh.jpg" alt="">
+            </div>
+            <a href="#" class="btn">Mukesh</a>
+         </div>
+         
        </div>
-    </div> -->
+    </div>
    <footer>
        Copyright &copy; 2022
-       <a href=".\joinus.html">Join us as a devloper</a>
-       <a href=".\dev.html">Team of developers devloper</a>
+       <a href="./pages/joinus.html">Join us</a>
    </footer>
 </body>
-<script src="app.js"></script>
+<script src="./scripts/app.js"></script>
+<script src="./scripts/navbar.js"></script>
 </html>

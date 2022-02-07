@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    font-size: 70px;
+    margin-top:60px;
+}
+p{
+    margin:0 auto;
+    max-width:900px;
+    padding:20px;
+    font-size:var(--desktop-large);
+}
+footer{
+    position:absolute;
+    bottom:0;
+}
+
+ @media only screen and (max-width:768px){
+    h1{
+        text-align: center;
+        font-size: 60px;
+        margin-top:60px;
+       
+    }
+    p{
+        width:90%;
+        padding:20px;
+        font-size:var(--mobile-large);
+    }
+ }

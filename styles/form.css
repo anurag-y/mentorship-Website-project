@@ -43,7 +43,7 @@ input{
   transition:var(--desktop-time);
 }
 input:hover{
-  background:var(--yellow);
+  background:rgba(132, 130, 238, 0.205);
   box-shadow: 0 0 4px rgba(128, 128, 128, 0);
 }
 input:focus{
