@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Homepage.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/joinus.css">
     <title>Join us</title>
 </head>
 <body>
-    <header class="Header">
+    <header class="Header space-between">
   
         <div class="logo">
             <span>I</span>nitiators<span>N</span>avodayans
@@ -16,19 +18,20 @@
 
     <nav id="navbar">
       <ul class="links">
-        <li><a href=".\index.html">Home</a></li>
-        <li><a href=".\about.html">About Us</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./about.html">About Us</a></li>
         <li><a href="#">Programes</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
       </ul>
     </nav>
+    <button className="toggle">Menu</button>
   </header>
     <div class="container">
         <h1>Join us to improve the platforms</h1>
         <h2>Who can join?</h2>
         <div class="eligibility">
-            <p>Any Navodayan, (or even non-navodayan) interested in developing a platform to help students predominantly from rural areas</p>
-            <p>You can join as</p>
+            <p>Any Navodayan, (or even non-navodayan) interested in developing a platform to help students predominantly from rural areas <br>You can join as </p>
+            
             <ul>
                 <li>Developer to code and improve the platform</li>
                 <li>As a mentor to the students</li>
@@ -37,6 +40,6 @@
             </ul>
         </div>
     </div>
-    
+    <script src="../scripts/navbar.js"></script>
 </body>
 </html>
