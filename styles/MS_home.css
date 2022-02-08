@@ -1,0 +1,44 @@
+.container {
+	text-align: center;
+	padding: 10px;
+}
+.card{
+	width:400px;
+}
+h1 {
+	padding: 10px;
+}
+.clist {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.img {
+	height: 300px;
+}
+.eng img {
+	transform: translateY(-150px) scale(1);
+}
+.card:hover .eng img {
+	transform: translateY(-150px) scale(1.1);
+}
+.med img,
+.law img,
+.commerce img,
+.sports img {
+	transform: scale(1.4);
+}
+.card:hover .med img,
+.card:hover .law img,
+.card:hover .commerce img,
+.card:hover .sports img {
+	transform: scale(1.6);
+}
+.humanities img,
+.music img {
+	transform: scale(1.2);
+}
+.card:hover .humanities img,
+.card:hover .music img {
+	transform: scale(1.4);
+}
