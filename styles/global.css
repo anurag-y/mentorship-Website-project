@@ -3,8 +3,8 @@
 /* Use these CSS variables in the whole project so that it will be easy to change some property from just at on place only */
 
 :root {
-	--black: hsla(0, 0%, 0%, 0.5);
-	--gray: hsla(0, 0%, 0%, 0.35);
+	--black: hsl(0, 0%, 0%);
+	--gray: hsla(0, 0%, 0%, 0.801);
 	--family: "Nunito", sans-serif;
 	--blue: hsl(240, 57%, 65%);
 	--red: hsl(0, 40%, 50%);

@@ -19,4 +19,23 @@
     margin-right: 20px;
 }
 
+.clg:hover
+{
+    border: 2px;
+    border-style:groove;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    border-color: rgb(178, 250, 157);
+    height: 35vh;
+    background-color: rgb(189, 235, 163);
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  .container
+  {
+      margin: 13px;
+  }
 

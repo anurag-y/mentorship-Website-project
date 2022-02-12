@@ -1,0 +1,21 @@
+table{
+    width:100%;
+    text-align: left;
+    
+}
+table th, td
+{
+    border-style:groove;
+}
+
+.mdetails
+{
+    border: 3px;
+    border-style: double;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.mentor
+{
+    margin: 40px;
+}
