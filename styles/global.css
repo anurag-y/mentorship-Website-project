@@ -114,3 +114,9 @@ footer a {
 	);
 	border-radius: 2px;
 }
+
+.dev button{
+	padding: 10px;;
+	border-radius: 10px;
+	border-color: chartreuse;
+}
