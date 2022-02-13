@@ -1,12 +1,22 @@
 /* navbar css style start */
 header {
-	padding: 8px;
+	grid-area: header;
+	background-color: powderblue;
+	position:fixed;
+	height: 120px;
+	width: 100%;
+
 }
 
 .logo {
 	font-size: var(--desktop-verylarge);
 	padding: 10px 15px;
 	border-radius: 10px;
+}
+.logo-img{
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
 }
 .logo span {
 	margin-left: 5px;
@@ -144,7 +154,7 @@ header button{
 		width: 100%;
 		padding: 30px;
 		left:0;
-		box-shadow: var(--shadow);	
+		box-shadow: var(--shadow);
 		transform-origin:top right;
 		transform:scale(0);
 		transition: 0.3s ease all;
@@ -154,7 +164,7 @@ header button{
 		flex-direction:column;
 		align-items: center;
 		position:relative;
-		
+
 	}
 	.links li {
 
@@ -162,17 +172,17 @@ header button{
 	}
 	.links a{
 		padding:0;
-		
+
 	}
 	.links a:hover {
 		border-radius: 0px;
 		box-shadow: 0 0 0 rgb(41, 39, 39);
-		
-		
+
+
 	}
 	.links li:hover{
 		transform:scale(1.5);
-		
+
 	}
 	.links a:active {
 		transform: scale(0.9);
@@ -183,7 +193,7 @@ header button{
 	header button:active{
 		transform: scale(0.9);
 	}
-	
+
 
 
 
