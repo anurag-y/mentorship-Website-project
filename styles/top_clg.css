@@ -1,41 +1,81 @@
-.clg
+#top
 {
-    border: 2px;
-    border-style: double;
-    border-radius: 15px;
-    margin: 10px;
-    padding: 15px;
-    border-color: rgb(78, 76, 76);
-    height: 35vh;
-}
-
-.clg h1{
+    margin: 35px;
+    justify-content: center;
     text-align: center;
 }
+ 
 
-.desc img
+.college h1
 {
-    float: left;
-    margin-right: 20px;
+    
+    text-align: center;
+    
+}
+.flex-container
+{
+    display: flex;
 }
 
-.clg:hover
-{
-    border: 2px;
-    border-style:groove;
-    border-radius: 15px;
-    margin: 10px;
-    padding: 10px;
-    border-color: rgb(178, 250, 157);
-    height: 35vh;
-    background-color: rgb(189, 235, 163);
-}
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;    
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:auto;
+    }
+  }
+
+@media (max-width: 400px) {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      }
+  }
+
+
+
+
 a {
     color: inherit;
     text-decoration: inherit;
+    cursor: pointer;
   }
   .container
   {
       margin: 13px;
+
   }
+   .college
+{
+    border: 2px;
+    border-style: double;
+    border-radius: 15px;
+    margin: 8px;
+    padding: 14px;
+    border-color: aliceblue;
+    background-color: rgb(199, 221, 208);
+    box-shadow: antiquewhite;
+    position: relative;
+}
+
+.college:hover
+{
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    margin-left: 10px;
+    padding: 14px;
+    border-color: rgb(238, 228, 227);
+    background-color: rgb(190, 245, 213);
+}
+
+.fitems p{
+  margin-left: 10px;   
+}
 
