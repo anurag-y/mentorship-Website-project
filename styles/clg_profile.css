@@ -1,21 +1,71 @@
 table{
     width:100%;
     text-align: left;
+    padding: 10px;
     
 }
 table th, td
 {
-    border-style:groove;
+    border-style:none;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .mdetails
 {
     border: 3px;
-    border-style: double;
-    margin-top: 5px;
+    border-style: none;
+    margin-top: 10px;
     margin-bottom: 3px;
 }
 .mentor
 {
     margin: 40px;
+   
+}
+
+.mentor h1,p
+{
+    text-align: center;
+    margin-bottom: 15px;
+   
+}
+
+.mdetails{
+    background-color: white;
+    border-radius: 10px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+@media (max-width: 500px)
+{
+    .mdetails{
+        width: 90%;
+    }
+}
+
+
+@media screen {
+    
+}
+.mdetails h2, h3{
+    text-align: center;
+    
+}
+.mlist
+{
+    margin: auto;
+}
+
+.desc
+{
+    margin: 10px;
+}
+.desc h1
+{
+    text-align: center;
 }
