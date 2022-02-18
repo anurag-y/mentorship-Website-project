@@ -46,3 +46,36 @@ h1 {
 	border-style:solid;
 	border-color:rgb(212, 205, 205);
 }
+
+.topclg, .story
+{
+	border-style: groove;
+	margin: 10px;
+	background-color: white;
+	border-radius: 8px;
+}
+
+.topclg:hover, .story:hover
+{
+	border-style: groove;
+	margin: 10px;
+	background-color: rgba(145, 121, 146, 0.788);
+	border-radius: 8px;
+	color: black;
+}
+a{
+	text-decoration: inherit;
+	color: inherit;
+}
+
+#heading
+{
+	border-style: groove;
+	border-bottom: 3px;
+	border-left: 3px;
+	border-right: 3px;
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 8px;
+}
